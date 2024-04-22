@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.otp-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.back{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 35px;
+    
+}
+.back h6{
+    font-size: 20px;
+    font-weight: 400;
+    color: #131118;
+    font-family:  "Jost", sans-serif;
+}
+.back i{
+    font-size: 30px;
+}
+.otp-box{
+    display: flex;
+    flex-direction: column;
+    font-family:  "Jost", sans-serif;
+    padding-left: 60px;
+}
+.otp-intro{
+    margin-bottom: 20px;
+}
+.otp-intro h1{
+   font-family: "jost", sans-serif;
+   font-size: 30px;
+   color: #131118;
+}
+
+
+.otp-intro h6{
+    color: #A4A1AA;
+    font-weight: 400;
+    
+   margin-top: 10px;
+    font-size: 16px;
+    width: 450px;
+}
+.otp-number-container{
+    
+    gap: 30px;
+    display: flex;
+}
+.otp-number-container input[type="text"]{
+    width: 60px;
+    height: 55px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "jost", sans-serif;
+    border-radius: 10px;
+    border: 0.5px solid #A4A1AA;
+}
+
+.otp-number-container input[type="text"]:focus-within{
+    border: 3px solid #131118;
+}
+
+
+.btn button{
+    outline: none;
+    border: none;
+    background-color: #131118;
+    color: #ffffff;
+    width: 450px;
+    border-radius: 10px;
+    height: 58px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family:  "Jost", sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+}

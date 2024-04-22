@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.login-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.login-photo{
+    position: relative;
+}
+
+#company-logo{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+}
+
+.login-box{
+    display: flex;
+    flex-direction: column;
+    font-family:  "Jost", sans-serif;
+    padding-left: 90px;
+}
+.login-intro{
+    margin-bottom: 45px;
+}
+.login-intro h1{
+   font-family: "jost", sans-serif;
+   font-size: 38px;
+   color: #131118;
+}
+
+#hand img{
+    width: 37px;
+}
+
+.login-intro h6{
+    color: #A4A1AA;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 13px;
+}
+
+.email small{
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #131118;
+    font-family:  "Jost", sans-serif;
+}
+
+.email input{   
+    outline: none;
+    width: 450px;
+    border-radius: 10px;
+    height: 55px;
+    border: 2px solid #131118;
+    padding-left: 20px;
+}
+
+
+.email input::placeholder{
+    color: #000000;
+    
+    font-weight: 400;
+    font-size: 17px;
+    font-family:  "Jost", sans-serif;
+}
+.remember{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    font-weight: 500;
+}
+.remember input[type="checkbox"]::after{
+    content: "\f00c";
+    font-family: "Font Awesome 6 free";
+    font-weight: 900;
+    color: white;
+    font-size: 15px;
+    background-color: none;
+    display: none;
+}
+.remember input[type="checkbox"]:checked{
+    background-color: #131118;
+}
+
+.remember input[type="checkbox"]:checked::after{
+    display: block;
+}
+.remember input[type="checkbox"]:hover{
+    background-color: #131118;
+}
+.remember input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    --webkit-appearance: none;
+    border-radius: 3px;
+    background-color: none;
+    border: 2px solid #131118;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.remember label{
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.forgot a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #131118;
+    cursor: pointer;
+}
+
+
+.btn button{
+    outline: none;
+    border: none;
+    background-color: #131118;
+    color: #ffffff;
+    width: 450px;
+    border-radius: 10px;
+    height: 60px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family:  "Jost", sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+}
